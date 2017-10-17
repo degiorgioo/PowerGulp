@@ -1,0 +1,19 @@
+{
+  "name": "powergulp",
+  "version": "0.0.1",
+  "description": "A sample Gulp architecture",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degiorgioo/PowerGulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/degiorgioo/PowerGulp/issues"
+  },
+  "homepage": "https://github.com/degiorgioo/PowerGulp#readme"
+}
