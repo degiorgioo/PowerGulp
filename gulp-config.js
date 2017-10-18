@@ -1,3 +1,8 @@
+/**
+ * Configuration-File for the gulp-Environment,
+ * feel free to change this file.
+ */
+
 'use strict';
 
 module.exports = {
