@@ -2,5 +2,6 @@
 
 module.exports = {
 	"sassfiles_sourcepath": "./sass/**/*.scss",
-	"css_destinationpath": "./css"
+	"css_destinationpath": "./css",
+	"taskspath": "./tasks/"
 };
