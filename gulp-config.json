@@ -1,5 +1,8 @@
 {
   "sassfiles_sourcepath": "./sass/**/*.scss",
   "css_destinationpath": "./css",
-  "taskspath": "./tasks/"
+  "taskspath": "./tasks/",
+  "javascript_files": "./js/*.js",
+  "filename_destination_js": "app.bundled.js",
+  "foldername_destination_js": "./dist/js"
 }
