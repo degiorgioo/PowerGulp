@@ -1,15 +1,12 @@
 'use strict';
 
+//imports for gulp tasks
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+
+//import and variables for loocal files
 var gulpconfig = require('./gulp-config');
+var sassTask = require('./tasks/sass');
+var defaultTask = require('./tasks/default');
 
-gulp.task('default', function() {
-	// place code for your default task here
-});
-
-gulp.task('sass', function () {
-	return gulp.src(gulpconfig.sassfiles_sourcepath)
-		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest(gulpconfig.css_destinationpath));
-});
+gulp.task('default', defaultTask(gulp, gulpconfig));
+gulp.task('sass', sassTask(gulp, gulpconfig));
