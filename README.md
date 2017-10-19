@@ -12,9 +12,12 @@ All packages and tools will be installed by the npm.
 ## Install npm packages
 Before your work starts, please install all node-packages with the following command:
 ```
- console@host> npm install 
+ console@host> npm install
  ```
 
 # Useful links
 Gulp: https://gulpjs.com/
-Node: https://nodejs.org/en/ 
+Node: https://nodejs.org/en/
+
+# License
+#include "LICENSE.md"
