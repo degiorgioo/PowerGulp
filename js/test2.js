@@ -1,1 +1,10 @@
-console.log("2");
+(function() {
+	var a = function () {
+		console.log("test2");
+	};
+
+	var b = a;
+
+	b();
+})();
+
